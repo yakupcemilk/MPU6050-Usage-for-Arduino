@@ -39,6 +39,6 @@ void loop() {
   Serial.print(", Z: ");
   Serial.print(g.gyro.z);
   Serial.println(" rad/s");
-  Serial.println("");
+  Serial.println("<----------------------------------------->");
   delay(1000);
 }
